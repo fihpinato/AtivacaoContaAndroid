@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class AtivarActivity extends AppCompatActivity {
 
@@ -37,6 +38,13 @@ public class AtivarActivity extends AppCompatActivity {
     }
 
     public void registrar(View v){
+        String chave = etChave.getText().toString();
 
+        if(usuario.equals("") || chave.equals("")) {
+            Toast.makeText(this, "Usuario/chave não encontrado", Toast.LENGTH_SHORT).show();
+        } else {
+            Intent menuPrincipal = new Intent(this, MenuPrincipalActivity.class);
+
+        }
     }
 }
