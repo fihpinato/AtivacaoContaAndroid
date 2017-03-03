@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_planos">
+        <item>@string/plano_bronze</item>
+        <item>@string/plano_prata</item>
+        <item>@string/plano_ouro</item>
+    </string-array>
+</resources>

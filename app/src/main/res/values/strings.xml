@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AtivacaoDeConta</string>
+    <string name="primeiro_passo">Primeiro Passo</string>
+    <string name="bt_chave_ativacao">PEGAR A CHAVE DE ATIVAÇÃO</string>
+    <string name="segundo_passo">Segundo Passo</string>
+    <string name="et_chave">Entre com sua chave</string>
+    <string name="terceiro_passo">Terceiro Passo</string>
+    <string name="bt_registrar">REGISTRAR</string>
+    <string name="plano_bronze">Bronze</string>
+    <string name="plano_prata">Prata</string>
+    <string name="plano_ouro">Ouro</string>
+    <string name="username">Username</string>
+    <string name="gerar_c_digo">Gerar Código</string>
+</resources>
