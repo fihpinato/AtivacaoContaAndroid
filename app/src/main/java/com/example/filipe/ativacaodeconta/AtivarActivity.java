@@ -11,7 +11,7 @@ public class AtivarActivity extends AppCompatActivity {
 
     public final static int REQUEST_CODE_GERAR_CHAVE = 1;
     private EditText etChave;
-    private String usuario;
+    private String usuario = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,9 @@ public class AtivarActivity extends AppCompatActivity {
             Toast.makeText(this, "Usuario/chave não encontrado", Toast.LENGTH_SHORT).show();
         } else {
             Intent menuPrincipal = new Intent(this, MenuPrincipalActivity.class);
-
+            menuPrincipal.putExtra("USUARIO", usuario);
+            startActivity(menuPrincipal);
+            finish();
         }
     }
 }

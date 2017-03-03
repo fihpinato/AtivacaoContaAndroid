@@ -18,7 +18,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt_chave_ativacao"/>
+        android:text="@string/bt_chave_ativacao"
+        android:onClick="pegarChave"/>
 
     <TextView
         style="@style/titulo_passo"
@@ -38,5 +39,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bt_registrar"
-        android:onClick="pegarChave"/>
+        android:onClick="registrar"/>
 </LinearLayout>

@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/spPlanos"
-        android:entries="@arrays/tipos_planos"/>
+        android:entries="@array/tipos_planos"/>
 
     <Button
         android:layout_width="match_parent"
